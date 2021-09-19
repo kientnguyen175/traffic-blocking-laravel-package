@@ -1,0 +1,22 @@
+{
+    "name": "megaads/traffic-blocking",
+    "description": "The package help block access from any country you want. It gives you a web page where you can do it.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": ["access blocking", "block access", "traffic blocking", "block traffic", "laravel", "package", "laravel package"],
+    "authors": [
+        {
+            "name": "Kien Trung Nguyen",
+            "email": "kient.nguyen175@gmail.com"
+        }
+    ],
+    "require": {
+        "ip2location/ip2location-php": "8.2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Megaads\\TrafficBlocking\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
